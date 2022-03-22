@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgba(22, 19, 19, 0.945);
+
+}
+
+.mainbox {
+
+    margin-left: 30%;
+    margin-top: -45px;
+    margin-bottom: 10px;
+
+}
+
+#moviename {
+    border: 2px solid rgba(26, 26, 26, 0.815);
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+img {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+button {
+    height: 30px;
+    border: 2px solid black;
+    background-color: #f6c800;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.imgbox {
+
+    width: 30%;
+    height: 600px;
+
+    margin: auto;
+    margin-top: 20px;
+}
+
+.Moimg {
+    width: 100%;
+    height: 400px;
+}
+
+.des {
+    color: white;
+    text-align: center;
+}
+
+.recommended {
+    font-size: large;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.suggetion {
+
+    width: 50%;
+    margin: auto;
+    background-color: transparent;
+    max-height: 200px;
+    overflow-y: scroll;
+
+
+}
+
+.manuimg {
+    width: 15%;
+    height: 15%;
+}
+
+.innerbox {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    border: 2px solid #f6c800;
+}
